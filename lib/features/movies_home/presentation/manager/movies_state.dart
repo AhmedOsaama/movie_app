@@ -18,3 +18,9 @@ class MoviesSuccess extends MoviesState{
 
   MoviesSuccess(this.movies);
 }
+
+class MoviesCacheSuccess extends MoviesState{
+  final MovieModel movies;
+
+  MoviesCacheSuccess(this.movies);
+}
